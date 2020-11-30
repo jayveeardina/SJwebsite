@@ -30,7 +30,8 @@ body {
 
 .container,
 .form__input,
-.form__button{
+.form__button,
+.form__message--error{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -50,6 +51,7 @@ body {
 .form__message{
     text-align: center;
     margin-bottom: 1rem;
+    color: var(--color-error);
 }
 
 .form__message--succeess{
@@ -58,6 +60,7 @@ body {
 
 .form__message--error{
     color: var(--color-error);
+    border-color: var(--color-error);
 }
 
 .form__input-group{
